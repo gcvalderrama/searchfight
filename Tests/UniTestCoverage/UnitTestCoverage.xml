@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.7.922.0">
+  <Summary numSequencePoints="157" visitedSequencePoints="150" numBranchPoints="63" visitedBranchPoints="52" sequenceCoverage="95.54" branchCoverage="82.54" maxCyclomaticComplexity="15" minCyclomaticComplexity="1" maxCrapScore="56" minCrapScore="1" visitedClasses="9" numClasses="9" visitedMethods="30" numMethods="33" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="85-E1-3A-6F-E9-7C-47-DF-84-68-3C-E4-DF-04-C4-B5-14-04-06-0B">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2018-12-07T20:56:57.416858Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9F-C3-2E-51-B5-EB-69-B9-60-21-42-1F-17-25-12-07-16-11-20-50">
+      <ModulePath>F:\git\searchfight\packages\NUnit.Runners.Net4.2.6.4\tools\nunit-console.exe</ModulePath>
+      <ModuleTime>2015-02-25T22:08:34Z</ModuleTime>
+      <ModuleName>nunit-console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="F2-ED-FF-09-01-C9-D7-BC-29-AC-A6-93-C5-97-8A-0D-43-DD-8D-F2">
+      <ModulePath>F:\git\searchfight\packages\NUnit.Runners.Net4.2.6.4\tools\lib\nunit-console-runner.dll</ModulePath>
+      <ModuleTime>2015-02-25T22:08:34Z</ModuleTime>
+      <ModuleName>nunit-console-runner</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="36-B9-FF-C0-07-EA-59-4D-23-2E-FD-CD-5A-45-CF-C0-2C-42-2A-98">
+      <ModulePath>F:\git\searchfight\packages\NUnit.Runners.Net4.2.6.4\tools\lib\nunit.core.dll</ModulePath>
+      <ModuleTime>2015-02-25T22:08:34Z</ModuleTime>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="14-C3-4B-3E-39-7A-EE-C0-B9-2F-83-44-2F-04-8A-F7-48-7B-67-DE">
+      <ModulePath>F:\git\searchfight\packages\NUnit.Runners.Net4.2.6.4\tools\lib\nunit.util.dll</ModulePath>
+      <ModuleTime>2015-02-25T22:08:34Z</ModuleTime>
+      <ModuleName>nunit.util</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="5E-95-A6-AD-88-48-98-B1-62-7F-4E-5A-C1-0E-F3-B7-85-56-44-E8">
+      <ModulePath>F:\git\searchfight\packages\NUnit.Runners.Net4.2.6.4\tools\lib\nunit.core.interfaces.dll</ModulePath>
+      <ModuleTime>2015-02-25T22:08:34Z</ModuleTime>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="41-E7-52-4E-E7-9F-10-43-54-6F-CE-76-44-7B-9F-E0-F1-33-EE-FD">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2018-12-07T21:01:00Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7A-24-3E-D9-15-32-FC-F3-C0-F1-06-F7-A8-6E-47-12-9D-C1-3B-52">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-12-19T23:13:52Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="85-2C-0C-0A-04-8A-78-D5-6F-4B-42-A6-C8-C4-51-D2-38-81-DF-A9">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2018-09-15T07:29:49.15399Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CE-3B-56-1F-B4-21-2D-C5-D3-07-DC-48-EF-D4-EC-E7-0D-5A-F8-5E">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2018-09-15T07:29:49.1383641Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="36-B9-FF-C0-07-EA-59-4D-23-2E-FD-CD-5A-45-CF-C0-2C-42-2A-98">
+      <ModulePath>F:\git\searchfight\packages\NUnit.Runners.Net4.2.6.4\tools\lib\nunit.core.dll</ModulePath>
+      <ModuleTime>2015-02-25T22:08:34Z</ModuleTime>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7A-24-3E-D9-15-32-FC-F3-C0-F1-06-F7-A8-6E-47-12-9D-C1-3B-52">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-12-19T23:13:52Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="53-25-23-C6-63-70-35-C6-0C-82-04-1A-0A-BF-1A-E7-1F-EA-74-A3">
+      <ModulePath>F:\git\searchfight\packages\NUnit.Runners.Net4.2.6.4\tools\pnunit.framework.dll</ModulePath>
+      <ModuleTime>2015-02-25T22:08:34Z</ModuleTime>
+      <ModuleName>pnunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="21-69-E9-47-C6-F8-02-12-31-E6-18-DE-8E-43-24-C9-AB-F7-C2-BE">
+      <ModulePath>F:\git\searchfight\packages\NUnit.Runners.Net4.2.6.4\tools\pnunit-agent.exe</ModulePath>
+      <ModuleTime>2015-02-25T22:08:34Z</ModuleTime>
+      <ModuleName>pnunit-agent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="5E-95-A6-AD-88-48-98-B1-62-7F-4E-5A-C1-0E-F3-B7-85-56-44-E8">
+      <ModulePath>F:\git\searchfight\packages\NUnit.Runners.Net4.2.6.4\tools\lib\nunit.core.interfaces.dll</ModulePath>
+      <ModuleTime>2015-02-25T22:08:34Z</ModuleTime>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="F3-CC-E4-F4-6C-39-1B-2F-04-DE-26-BA-A7-9C-78-80-38-20-7B-F2">
+      <Summary numSequencePoints="48" visitedSequencePoints="48" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="4" numClasses="4" visitedMethods="6" numMethods="6" />
+      <ModulePath>F:\git\searchfight\Tests\Searchfight.UnitTest\bin\Debug\Searchfight.UnitTest.dll</ModulePath>
+      <ModuleTime>2019-03-31T18:26:38.4094596Z</ModuleTime>
+      <ModuleName>Searchfight.UnitTest</ModuleName>
+      <Files>
+        <File uid="1" fullPath="F:\git\searchfight\Tests\Searchfight.UnitTest\TestBingSeeker.cs" />
+        <File uid="2" fullPath="F:\git\searchfight\Tests\Searchfight.UnitTest\TestGoogleSeeker.cs" />
+        <File uid="3" fullPath="F:\git\searchfight\Tests\Searchfight.UnitTest\TestParser.cs" />
+        <File uid="4" fullPath="F:\git\searchfight\Tests\Searchfight.UnitTest\TestSearchResult.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Searchfight.UnitTest.TestBingSeeker</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void Searchfight.UnitTest.TestBingSeeker::TestBingResult()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="68" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="12" sl="19" sc="13" el="19" ec="43" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="4" ordinal="3" offset="18" sl="20" sc="13" el="20" ec="49" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="5" ordinal="4" offset="26" sl="21" sc="13" el="21" ec="47" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="6" ordinal="5" offset="39" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void Searchfight.UnitTest.TestBingSeeker::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="7" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Searchfight.UnitTest.TestGoogleSeeker</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void Searchfight.UnitTest.TestGoogleSeeker::TestGoogleResult()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="8" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="9" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="70" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="10" ordinal="2" offset="12" sl="20" sc="13" el="20" ec="54" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="11" ordinal="3" offset="18" sl="21" sc="13" el="21" ec="49" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="12" ordinal="4" offset="26" sl="22" sc="13" el="22" ec="50" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="13" ordinal="5" offset="42" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="8" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void Searchfight.UnitTest.TestGoogleSeeker::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="14" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="16" visitedSequencePoints="16" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>Searchfight.UnitTest.TestParser</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void Searchfight.UnitTest.TestParser::TestEmptyArgs()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="15" ordinal="0" offset="0" sl="15" sc="37" el="15" ec="38" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="16" ordinal="1" offset="1" sl="16" sc="13" el="16" ec="48" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="17" ordinal="2" offset="8" sl="17" sc="13" el="17" ec="48" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="18" ordinal="3" offset="15" sl="18" sc="13" el="18" ec="44" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="19" ordinal="4" offset="27" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="15" ordinal="0" offset="0" sl="15" sc="37" el="15" ec="38" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void Searchfight.UnitTest.TestParser::TestOneArgument()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="20" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="21" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="55" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="22" ordinal="2" offset="16" sl="25" sc="13" el="25" ec="48" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="23" ordinal="3" offset="23" sl="26" sc="13" el="26" ec="44" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="24" ordinal="4" offset="35" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="20" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void Searchfight.UnitTest.TestParser::TestTwoArgument()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="25" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="26" ordinal="1" offset="1" sl="31" sc="13" el="31" ec="62" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="27" ordinal="2" offset="24" sl="32" sc="13" el="32" ec="48" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="28" ordinal="3" offset="31" sl="33" sc="13" el="33" ec="43" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="29" ordinal="4" offset="43" sl="34" sc="13" el="34" ec="45" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="30" ordinal="5" offset="55" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="25" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void Searchfight.UnitTest.TestParser::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="31" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="20" visitedSequencePoints="20" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Searchfight.UnitTest.TestSearchResult</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="20" visitedSequencePoints="20" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void Searchfight.UnitTest.TestSearchResult::TestGoogleBingResult()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="32" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="33" ordinal="1" offset="1" sl="17" sc="13" el="17" ec="54" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="34" ordinal="2" offset="7" sl="18" sc="13" el="18" ec="61" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="35" ordinal="3" offset="33" sl="19" sc="13" el="19" ec="57" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="36" ordinal="4" offset="56" sl="20" sc="13" el="20" ec="60" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="37" ordinal="5" offset="79" sl="21" sc="13" el="21" ec="57" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="38" ordinal="6" offset="102" sl="22" sc="13" el="22" ec="56" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="39" ordinal="7" offset="120" sl="23" sc="13" el="23" ec="42" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="40" ordinal="8" offset="127" sl="24" sc="13" el="24" ec="52" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="41" ordinal="9" offset="133" sl="25" sc="13" el="25" ec="70" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="42" ordinal="10" offset="145" sl="26" sc="13" el="26" ec="69" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="43" ordinal="11" offset="157" sl="27" sc="13" el="27" ec="48" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="44" ordinal="12" offset="169" sl="28" sc="13" el="28" ec="50" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="45" ordinal="13" offset="181" sl="29" sc="13" el="29" ec="49" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="46" ordinal="14" offset="193" sl="30" sc="13" el="30" ec="53" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="47" ordinal="15" offset="204" sl="31" sc="13" el="31" ec="43" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="48" ordinal="16" offset="211" sl="32" sc="13" el="32" ec="53" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="49" ordinal="17" offset="222" sl="33" sc="13" el="33" ec="53" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="50" ordinal="18" offset="234" sl="35" sc="13" el="35" ec="49" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="51" ordinal="19" offset="247" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="32" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void Searchfight.UnitTest.TestSearchResult::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="52" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A2-D0-DB-C9-20-FB-37-90-D4-D6-25-E5-C4-7B-E0-42-CA-32-C0-51">
+      <ModulePath>F:\git\searchfight\Tests\Searchfight.UnitTest\bin\Debug\nunit.framework.dll</ModulePath>
+      <ModuleTime>2014-12-17T03:04:34Z</ModuleTime>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="41-E7-52-4E-E7-9F-10-43-54-6F-CE-76-44-7B-9F-E0-F1-33-EE-FD">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2018-12-07T21:01:00Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="85-2C-0C-0A-04-8A-78-D5-6F-4B-42-A6-C8-C4-51-D2-38-81-DF-A9">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2018-09-15T07:29:49.15399Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="FB-F9-C7-97-F5-E4-05-37-75-53-FB-59-FC-20-6A-4C-03-60-79-A8">
+      <Summary numSequencePoints="109" visitedSequencePoints="102" numBranchPoints="57" visitedBranchPoints="46" sequenceCoverage="93.58" branchCoverage="80.70" maxCyclomaticComplexity="15" minCyclomaticComplexity="1" maxCrapScore="56" minCrapScore="1" visitedClasses="5" numClasses="5" visitedMethods="24" numMethods="27" />
+      <ModulePath>F:\git\searchfight\Tests\Searchfight.UnitTest\bin\Debug\Searchfight.Core.dll</ModulePath>
+      <ModuleTime>2019-03-31T18:26:38.0354631Z</ModuleTime>
+      <ModuleName>Searchfight.Core</ModuleName>
+      <Files>
+        <File uid="9" fullPath="F:\git\searchfight\App\Searchfight.Core\BingSeeker.cs" />
+        <File uid="10" fullPath="F:\git\searchfight\App\Searchfight.Core\GoogleSeeker.cs" />
+        <File uid="11" fullPath="F:\git\searchfight\App\Searchfight.Core\Parser.cs" />
+        <File uid="12" fullPath="F:\git\searchfight\App\Searchfight.Core\SearchResult.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" maxCrapScore="56" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;&gt;f__AnonymousType0`2</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>&lt;key&gt;j__TPar &lt;&gt;f__AnonymousType0`2::get_key()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="53" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>&lt;items&gt;j__TPar &lt;&gt;f__AnonymousType0`2::get_items()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="54" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void &lt;&gt;f__AnonymousType0`2::.ctor(&lt;key&gt;j__TPar,&lt;items&gt;j__TPar)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="55" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="12" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="12" minCrapScore="12" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Boolean &lt;&gt;f__AnonymousType0`2::Equals(System.Object)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="56" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Int32 &lt;&gt;f__AnonymousType0`2::GetHashCode()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="57" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="7" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="56" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="7" minCyclomaticComplexity="7" maxCrapScore="56" minCrapScore="56" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.String &lt;&gt;f__AnonymousType0`2::ToString()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="58" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="12" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="80" branchCoverage="75" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <FullName>Searchfight.Core.BingSeeker</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.String Searchfight.Core.BingSeeker::get_Name()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="59" ordinal="0" offset="0" sl="11" sc="43" el="11" ec="44" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="60" ordinal="1" offset="1" sl="11" sc="45" el="11" ec="59" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="61" ordinal="2" offset="9" sl="11" sc="60" el="11" ec="61" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="59" ordinal="0" offset="0" sl="11" sc="43" el="11" ec="44" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Int64 Searchfight.Core.BingSeeker::Search(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="62" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="63" ordinal="1" offset="1" sl="16" sc="13" el="16" ec="70" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="64" ordinal="2" offset="13" sl="17" sc="13" el="17" ec="32" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="65" ordinal="3" offset="18" sl="18" sc="13" el="18" ec="31" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="11" uspid="66" ordinal="4" offset="26" sl="20" sc="13" el="20" ec="14" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="11" uspid="67" ordinal="5" offset="27" sl="21" sc="17" el="21" ec="41" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="11" uspid="68" ordinal="6" offset="49" sl="22" sc="17" el="22" ec="25" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="11" uspid="69" ordinal="7" offset="53" sl="23" sc="13" el="23" ec="14" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="12" uspid="70" ordinal="8" offset="54" sl="19" sc="13" el="19" ec="42" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="71" ordinal="9" offset="72" sl="25" sc="13" el="25" ec="61" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="72" ordinal="10" offset="104" sl="26" sc="13" el="26" ec="38" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="73" ordinal="11" offset="114" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="74" ordinal="0" offset="70" sl="19" path="0" offsetend="72" fileid="9" />
+                <BranchPoint vc="11" uspid="75" ordinal="1" offset="70" sl="19" path="1" offsetend="26" fileid="9" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="62" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void Searchfight.Core.BingSeeker::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="76" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="12" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="80" branchCoverage="75" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
+          <FullName>Searchfight.Core.GoogleSeeker</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.String Searchfight.Core.GoogleSeeker::get_Name()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="77" ordinal="0" offset="0" sl="13" sc="43" el="13" ec="44" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="78" ordinal="1" offset="1" sl="13" sc="45" el="13" ec="61" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="79" ordinal="2" offset="9" sl="13" sc="62" el="13" ec="63" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="77" ordinal="0" offset="0" sl="13" sc="43" el="13" ec="44" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Int64 Searchfight.Core.GoogleSeeker::Search(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="80" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="81" ordinal="1" offset="1" sl="17" sc="13" el="17" ec="87" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="82" ordinal="2" offset="13" sl="18" sc="13" el="18" ec="32" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="83" ordinal="3" offset="18" sl="19" sc="13" el="19" ec="31" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="16" uspid="84" ordinal="4" offset="26" sl="20" sc="45" el="20" ec="46" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="16" uspid="85" ordinal="5" offset="27" sl="21" sc="17" el="21" ec="41" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="16" uspid="86" ordinal="6" offset="49" sl="22" sc="17" el="22" ec="25" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="16" uspid="87" ordinal="7" offset="53" sl="23" sc="13" el="23" ec="14" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="17" uspid="88" ordinal="8" offset="54" sl="20" sc="13" el="20" ec="44" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="1" uspid="89" ordinal="9" offset="72" sl="25" sc="13" el="25" ec="61" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="90" ordinal="10" offset="104" sl="26" sc="13" el="26" ec="38" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="91" ordinal="11" offset="114" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="92" ordinal="0" offset="70" sl="20" path="0" offsetend="72" fileid="10" />
+                <BranchPoint vc="16" uspid="93" ordinal="1" offset="70" sl="20" path="1" offsetend="26" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="80" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void Searchfight.Core.GoogleSeeker::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="94" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="27" visitedSequencePoints="26" numBranchPoints="15" visitedBranchPoints="13" sequenceCoverage="96.30" branchCoverage="86.67" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" maxCrapScore="3" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="8" numMethods="9" />
+          <FullName>Searchfight.Core.Parser</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Boolean Searchfight.Core.Parser::get_IsValid()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="95" ordinal="0" offset="0" sl="12" sc="31" el="12" ec="35" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="95" ordinal="0" offset="0" sl="12" sc="31" el="12" ec="35" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void Searchfight.Core.Parser::set_IsValid(System.Boolean)</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="96" ordinal="0" offset="0" sl="12" sc="36" el="12" ec="50" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="96" ordinal="0" offset="0" sl="12" sc="36" el="12" ec="50" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.String Searchfight.Core.Parser::get_Message()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="97" ordinal="0" offset="0" sl="13" sc="33" el="13" ec="37" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="97" ordinal="0" offset="0" sl="13" sc="33" el="13" ec="37" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void Searchfight.Core.Parser::set_Message(System.String)</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="98" ordinal="0" offset="0" sl="13" sc="38" el="13" ec="42" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="98" ordinal="0" offset="0" sl="13" sc="38" el="13" ec="42" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Collections.Generic.IReadOnlyList`1&lt;System.String&gt; Searchfight.Core.Parser::get_Words()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="99" ordinal="0" offset="0" sl="16" sc="46" el="16" ec="50" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="99" ordinal="0" offset="0" sl="16" sc="46" el="16" ec="50" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void Searchfight.Core.Parser::set_Words(System.Collections.Generic.IReadOnlyList`1&lt;System.String&gt;)</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="100" ordinal="0" offset="0" sl="16" sc="51" el="16" ec="65" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="100" ordinal="0" offset="0" sl="16" sc="51" el="16" ec="65" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void Searchfight.Core.Parser::.ctor(System.String[])</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="101" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="39" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="102" ordinal="1" offset="7" sl="18" sc="40" el="18" ec="41" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="103" ordinal="2" offset="8" sl="19" sc="13" el="19" ec="35" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="104" ordinal="3" offset="15" sl="20" sc="13" el="20" ec="26" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="105" ordinal="4" offset="22" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="101" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="39" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void Searchfight.Core.Parser::Parse()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="106" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="107" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="34" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="108" ordinal="2" offset="8" sl="25" sc="13" el="25" ec="30" bec="2" bev="2" fileid="11" />
+                <SequencePoint vc="1" uspid="109" ordinal="3" offset="18" sl="25" sc="31" el="25" ec="32" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="1" uspid="110" ordinal="4" offset="19" sl="26" sc="17" el="26" ec="74" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="1" uspid="111" ordinal="5" offset="42" sl="27" sc="13" el="27" ec="14" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="112" ordinal="6" offset="43" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="113" ordinal="0" offset="16" sl="25" path="0" offsetend="18" fileid="11" />
+                <BranchPoint vc="2" uspid="114" ordinal="1" offset="16" sl="25" path="1" offsetend="43" fileid="11" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="106" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="11" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="4" sequenceCoverage="100" branchCoverage="80" crapScore="3" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="5" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="80" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="3" minCrapScore="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void Searchfight.Core.Parser::ValidateInput()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="115" ordinal="0" offset="0" sl="30" sc="38" el="30" ec="39" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="116" ordinal="1" offset="1" sl="31" sc="13" el="31" ec="34" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="117" ordinal="2" offset="9" sl="32" sc="13" el="32" ec="92" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="118" ordinal="3" offset="21" sl="33" sc="13" el="33" ec="65" bec="4" bev="3" fileid="11" />
+                <SequencePoint vc="1" uspid="119" ordinal="4" offset="47" sl="34" sc="13" el="34" ec="14" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="1" uspid="120" ordinal="5" offset="48" sl="35" sc="17" el="35" ec="37" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="1" uspid="121" ordinal="6" offset="56" sl="36" sc="17" el="36" ec="35" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="1" uspid="122" ordinal="7" offset="68" sl="37" sc="13" el="37" ec="14" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="3" uspid="123" ordinal="8" offset="69" sl="38" sc="9" el="38" ec="10" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="3" uspid="124" ordinal="0" offset="27" sl="33" path="0" offsetend="29" fileid="11" />
+                <BranchPoint vc="0" uspid="125" ordinal="1" offset="27" sl="33" path="1" offsetend="42" fileid="11" />
+                <BranchPoint vc="1" uspid="126" ordinal="2" offset="45" sl="33" path="0" offsetend="47" fileid="11" />
+                <BranchPoint vc="2" uspid="127" ordinal="3" offset="45" sl="33" path="1" offsetend="69" fileid="11" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="115" ordinal="0" offset="0" sl="30" sc="38" el="30" ec="39" bec="0" bev="0" fileid="11" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="42" visitedSequencePoints="42" numBranchPoints="20" visitedBranchPoints="13" sequenceCoverage="100" branchCoverage="65" maxCyclomaticComplexity="15" minCyclomaticComplexity="1" maxCrapScore="15" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>Searchfight.Core.SearchResult</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Collections.Generic.IEnumerable`1&lt;System.Tuple`3&lt;System.String,System.String,System.Int64&gt;&gt; Searchfight.Core.SearchResult::get_Results()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="128" ordinal="0" offset="0" sl="12" sc="71" el="12" ec="72" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="129" ordinal="1" offset="1" sl="12" sc="73" el="12" ec="93" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="130" ordinal="2" offset="10" sl="12" sc="95" el="12" ec="96" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="128" ordinal="0" offset="0" sl="12" sc="71" el="12" ec="72" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void Searchfight.Core.SearchResult::.ctor()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="131" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="30" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="132" ordinal="1" offset="7" sl="14" sc="31" el="14" ec="32" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="133" ordinal="2" offset="8" sl="15" sc="13" el="15" ec="72" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="134" ordinal="3" offset="19" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="131" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="30" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void Searchfight.Core.SearchResult::LoadResult(System.String,System.String,System.Int64)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="135" ordinal="0" offset="0" sl="17" sc="75" el="17" ec="76" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="4" uspid="136" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="82" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="4" uspid="137" ordinal="2" offset="21" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="135" ordinal="0" offset="0" sl="17" sc="75" el="17" ec="76" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="15" nPathComplexity="256" sequenceCoverage="100" branchCoverage="58.82" crapScore="15" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="32" visitedSequencePoints="32" numBranchPoints="17" visitedBranchPoints="10" sequenceCoverage="100" branchCoverage="58.82" maxCyclomaticComplexity="15" minCyclomaticComplexity="15" maxCrapScore="15" minCrapScore="15" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.String Searchfight.Core.SearchResult::Report()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="138" ordinal="0" offset="0" sl="20" sc="32" el="20" ec="33" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="139" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="52" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="140" ordinal="2" offset="7" sl="24" sc="13" el="27" ec="91" bec="6" bev="3" fileid="12" />
+                <SequencePoint vc="1" uspid="141" ordinal="3" offset="122" sl="29" sc="13" el="29" ec="20" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="142" ordinal="4" offset="123" sl="29" sc="34" el="29" ec="47" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="143" ordinal="5" offset="136" sl="29" sc="22" el="29" ec="30" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="144" ordinal="6" offset="145" sl="30" sc="13" el="30" ec="14" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="145" ordinal="7" offset="146" sl="31" sc="17" el="31" ec="63" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="146" ordinal="8" offset="165" sl="32" sc="17" el="32" ec="24" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="147" ordinal="9" offset="166" sl="32" sc="42" el="32" ec="52" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="4" uspid="148" ordinal="10" offset="182" sl="32" sc="26" el="32" ec="38" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="4" uspid="149" ordinal="11" offset="191" sl="33" sc="17" el="33" ec="18" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="4" uspid="150" ordinal="12" offset="192" sl="34" sc="21" el="34" ec="88" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="4" uspid="151" ordinal="13" offset="230" sl="35" sc="17" el="35" ec="18" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="6" uspid="152" ordinal="14" offset="231" sl="32" sc="39" el="32" ec="41" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="153" ordinal="15" offset="255" sl="36" sc="17" el="36" ec="37" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="154" ordinal="16" offset="264" sl="37" sc="13" el="37" ec="14" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="3" uspid="155" ordinal="17" offset="265" sl="29" sc="31" el="29" ec="33" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="156" ordinal="18" offset="292" sl="39" sc="13" el="42" ec="75" bec="6" bev="3" fileid="12" />
+                <SequencePoint vc="1" uspid="157" ordinal="19" offset="407" sl="44" sc="13" el="44" ec="20" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="158" ordinal="20" offset="408" sl="44" sc="38" el="44" ec="55" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="159" ordinal="21" offset="418" sl="44" sc="22" el="44" ec="34" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="160" ordinal="22" offset="427" sl="45" sc="13" el="45" ec="14" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="161" ordinal="23" offset="428" sl="46" sc="17" el="46" ec="92" bec="2" bev="2" fileid="12" />
+                <SequencePoint vc="2" uspid="162" ordinal="24" offset="483" sl="47" sc="17" el="47" ec="84" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="163" ordinal="25" offset="504" sl="48" sc="17" el="48" ec="37" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="164" ordinal="26" offset="513" sl="49" sc="13" el="49" ec="14" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="3" uspid="165" ordinal="27" offset="514" sl="44" sc="35" el="44" ec="37" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="166" ordinal="28" offset="538" sl="51" sc="13" el="51" ec="102" bec="2" bev="1" fileid="12" />
+                <SequencePoint vc="1" uspid="167" ordinal="29" offset="586" sl="52" sc="13" el="52" ec="72" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="168" ordinal="30" offset="604" sl="53" sc="13" el="53" ec="34" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="169" ordinal="31" offset="614" sl="55" sc="9" el="55" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="170" ordinal="0" offset="19" sl="24" path="0" offsetend="21" fileid="12" />
+                <BranchPoint vc="0" uspid="171" ordinal="1" offset="19" sl="24" path="1" offsetend="44" fileid="12" />
+                <BranchPoint vc="1" uspid="172" ordinal="2" offset="55" sl="24" path="0" offsetend="57" fileid="12" />
+                <BranchPoint vc="0" uspid="173" ordinal="3" offset="55" sl="24" path="1" offsetend="80" fileid="12" />
+                <BranchPoint vc="1" uspid="174" ordinal="4" offset="91" sl="24" path="0" offsetend="93" fileid="12" />
+                <BranchPoint vc="0" uspid="175" ordinal="5" offset="91" sl="24" path="1" offsetend="116" fileid="12" />
+                <BranchPoint vc="1" uspid="180" ordinal="10" offset="304" sl="39" path="0" offsetend="306" fileid="12" />
+                <BranchPoint vc="0" uspid="181" ordinal="11" offset="304" sl="39" path="1" offsetend="329" fileid="12" />
+                <BranchPoint vc="1" uspid="182" ordinal="12" offset="340" sl="39" path="0" offsetend="342" fileid="12" />
+                <BranchPoint vc="0" uspid="183" ordinal="13" offset="340" sl="39" path="1" offsetend="365" fileid="12" />
+                <BranchPoint vc="1" uspid="184" ordinal="14" offset="376" sl="39" path="0" offsetend="378" fileid="12" />
+                <BranchPoint vc="0" uspid="185" ordinal="15" offset="376" sl="39" path="1" offsetend="401" fileid="12" />
+                <BranchPoint vc="1" uspid="186" ordinal="16" offset="441" sl="46" path="0" offsetend="443" fileid="12" />
+                <BranchPoint vc="1" uspid="187" ordinal="17" offset="441" sl="46" path="1" offsetend="466" fileid="12" />
+                <BranchPoint vc="1" uspid="190" ordinal="20" offset="545" sl="51" path="0" offsetend="547" fileid="12" />
+                <BranchPoint vc="0" uspid="191" ordinal="21" offset="545" sl="51" path="1" offsetend="570" fileid="12" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="138" ordinal="0" offset="0" sl="20" sc="32" el="20" ec="33" bec="0" bev="0" fileid="12" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="14" visitedBranchPoints="14" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="10" numMethods="10" />
+          <FullName>Searchfight.Core.SearchResult/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void Searchfight.Core.SearchResult/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="192" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void Searchfight.Core.SearchResult/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="193" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.String Searchfight.Core.SearchResult/&lt;&gt;c::&lt;Report&gt;b__5_0(System.Tuple`3&lt;System.String,System.String,System.Int64&gt;)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="194" ordinal="0" offset="0" sl="25" sc="44" el="25" ec="51" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="194" ordinal="0" offset="0" sl="25" sc="44" el="25" ec="51" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.String Searchfight.Core.SearchResult/&lt;&gt;c::&lt;Report&gt;b__5_1(System.Linq.IGrouping`2&lt;System.String,System.Tuple`3&lt;System.String,System.String,System.Int64&gt;&gt;)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="195" ordinal="0" offset="0" sl="26" sc="41" el="26" ec="46" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="195" ordinal="0" offset="0" sl="26" sc="41" el="26" ec="46" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>&lt;&gt;f__AnonymousType0`2&lt;System.String,System.Linq.IOrderedEnumerable`1&lt;System.Tuple`3&lt;System.String,System.String,System.Int64&gt;&gt;&gt; Searchfight.Core.SearchResult/&lt;&gt;c::&lt;Report&gt;b__5_2(System.Linq.IGrouping`2&lt;System.String,System.Tuple`3&lt;System.String,System.String,System.Int64&gt;&gt;)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="196" ordinal="0" offset="0" sl="27" sc="40" el="27" ec="90" bec="2" bev="2" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="197" ordinal="0" offset="13" sl="27" path="0" offsetend="15" fileid="12" />
+                <BranchPoint vc="3" uspid="198" ordinal="1" offset="13" sl="27" path="1" offsetend="38" fileid="12" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="196" ordinal="0" offset="0" sl="27" sc="40" el="27" ec="90" bec="2" bev="2" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.String Searchfight.Core.SearchResult/&lt;&gt;c::&lt;Report&gt;b__5_7(System.Tuple`3&lt;System.String,System.String,System.Int64&gt;)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="199" ordinal="0" offset="0" sl="27" sc="80" el="27" ec="87" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="199" ordinal="0" offset="0" sl="27" sc="80" el="27" ec="87" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.String Searchfight.Core.SearchResult/&lt;&gt;c::&lt;Report&gt;b__5_3(System.Tuple`3&lt;System.String,System.String,System.Int64&gt;)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="200" ordinal="0" offset="0" sl="40" sc="48" el="40" ec="55" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="200" ordinal="0" offset="0" sl="40" sc="48" el="40" ec="55" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.String Searchfight.Core.SearchResult/&lt;&gt;c::&lt;Report&gt;b__5_4(System.Linq.IGrouping`2&lt;System.String,System.Tuple`3&lt;System.String,System.String,System.Int64&gt;&gt;)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="201" ordinal="0" offset="0" sl="41" sc="45" el="41" ec="50" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="201" ordinal="0" offset="0" sl="41" sc="45" el="41" ec="50" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663333</MetadataToken>
+              <Name>&lt;&gt;f__AnonymousType0`2&lt;System.String,System.Linq.IGrouping`2&lt;System.String,System.Tuple`3&lt;System.String,System.String,System.Int64&gt;&gt;&gt; Searchfight.Core.SearchResult/&lt;&gt;c::&lt;Report&gt;b__5_5(System.Linq.IGrouping`2&lt;System.String,System.Tuple`3&lt;System.String,System.String,System.Int64&gt;&gt;)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="202" ordinal="0" offset="0" sl="42" sc="44" el="42" ec="74" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="202" ordinal="0" offset="0" sl="42" sc="44" el="42" ec="74" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663334</MetadataToken>
+              <Name>System.Int64 Searchfight.Core.SearchResult/&lt;&gt;c::&lt;Report&gt;b__5_8(System.Tuple`3&lt;System.String,System.String,System.Int64&gt;)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="203" ordinal="0" offset="0" sl="46" sc="69" el="46" ec="76" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="203" ordinal="0" offset="0" sl="46" sc="69" el="46" ec="76" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663335</MetadataToken>
+              <Name>System.Int64 Searchfight.Core.SearchResult/&lt;&gt;c::&lt;Report&gt;b__5_6(&lt;&gt;f__AnonymousType0`2&lt;System.String,System.Linq.IOrderedEnumerable`1&lt;System.Tuple`3&lt;System.String,System.String,System.Int64&gt;&gt;&gt;)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="204" ordinal="0" offset="0" sl="51" sc="63" el="51" ec="88" bec="2" bev="2" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="205" ordinal="0" offset="12" sl="51" path="0" offsetend="14" fileid="12" />
+                <BranchPoint vc="1" uspid="206" ordinal="1" offset="12" sl="51" path="1" offsetend="37" fileid="12" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="204" ordinal="0" offset="0" sl="51" sc="63" el="51" ec="88" bec="2" bev="2" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663336</MetadataToken>
+              <Name>System.Int64 Searchfight.Core.SearchResult/&lt;&gt;c::&lt;Report&gt;b__5_9(System.Tuple`3&lt;System.String,System.String,System.Int64&gt;)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="207" ordinal="0" offset="0" sl="51" sc="80" el="51" ec="87" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="207" ordinal="0" offset="0" sl="51" sc="80" el="51" ec="87" bec="0" bev="0" fileid="12" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>Searchfight.Core.Seeker</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Void Searchfight.Core.Seeker::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="208" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="EE-F9-43-E4-36-91-66-A0-39-DE-E9-0F-2D-81-50-46-13-D4-9C-A0">
+      <ModulePath>F:\git\searchfight\Tests\Searchfight.UnitTest\bin\Debug\System.Collections.Immutable.dll</ModulePath>
+      <ModuleTime>2018-05-15T18:29:34Z</ModuleTime>
+      <ModuleName>System.Collections.Immutable</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="2C-92-4C-F6-06-6D-46-38-B6-6E-95-1F-87-B5-9A-99-7E-A4-11-9A">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\netstandard\v4.0_2.0.0.0__cc7b13ffcd2ddd51\netstandard.dll</ModulePath>
+      <ModuleTime>2018-09-15T07:29:47.9195105Z</ModuleTime>
+      <ModuleName>netstandard</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="33-91-B3-AD-C4-15-1D-0D-B7-A0-09-3D-5B-9A-F7-4A-18-F4-45-0E">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-12-07T21:01:00Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>
