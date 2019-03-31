@@ -8,14 +8,14 @@ namespace Searchfight.Core
 {
     public class BingSeeker : Seeker
     {
+        const string Anchor = "<span class=\"sb_count\">";
         public override string Name { get { return "bing"; } }
 
         public override long Search(string content)
-        {
-            //TODO google return no standard xml , we need to research what parser use
-            int index = content.IndexOf("<span class=\"sb_count\">");
-            index = index + 23;
-            string input = "";
+        {            
+            int index = content.IndexOf(Anchor);
+            index = index + Anchor.Length;
+            string input = string.Empty;
             while (content[index] != 'r')
             {
                 input += content[index];
