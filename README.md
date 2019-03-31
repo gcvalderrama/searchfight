@@ -12,6 +12,12 @@ Total winner: net
 ```
 ## Development 
 
+### Architecture 
+
+Based on onion architecture 
+
+![onion architecture](https://github.com/gcvalderrama/searchfight/blob/master/onion.png)
+
 ### Dependencies
 ```
 Nuget 
