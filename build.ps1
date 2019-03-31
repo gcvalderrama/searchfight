@@ -9,7 +9,7 @@ $CurrentDirectory =  (Split-Path $MyInvocation.MyCommand.Path -parent)
 $Project = './App/Searchfight/Searchfight.csproj'
 
 
-$output_build = join-path $CurrentDirectory "\Build\"
+$output_build = join-path $CurrentDirectory "\Release\"
 
 if (test-path $output_build ) {
     Remove-Item -recurse -force $output_build/*
