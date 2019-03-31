@@ -19,19 +19,28 @@ namespace Searchfight.Services
             Parser parser = new Parser(inputs);
             if (!parser.IsValid) {
                 return parser.Message;
-            }        
-            return this.LoadSearchResults(parser.Words).Report();            
+            }
+            var result = this.LoadSearchResults(parser.Words).Result;
+            return result.Report();            
         }
-        public SearchResult LoadSearchResults(IEnumerable<string> words) {
+        public async Task<SearchResult> LoadSearchResults(IEnumerable<string> words) {
             SearchResult result = new SearchResult();
-
-            Parallel.ForEach(words, (word) => {
-                Parallel.ForEach(providers, provider => {
-                    var content = provider.Item2.DoSearch(word).Result.Content.ReadAsStringAsync().Result;
-                    var count = provider.Item1.Search(content);
-                    result.LoadResult(provider.Item1.Name, word, count);
-                });
-            });            
+            var tasks = new List<Task>();
+            foreach (var word in words)
+            {
+                foreach (var provider in providers)
+                {
+                    var task = Task.Run(async () =>
+                    {
+                        var response = await provider.Item2.DoSearch(word);
+                        var content = await response.Content.ReadAsStringAsync();
+                        var count = provider.Item1.Search(content);
+                        result.LoadResult(provider.Item1.Name, word, count);
+                    });
+                    tasks.Add(task);
+                }
+            }
+            await Task.WhenAll(tasks); 
             return result;
         }
     }

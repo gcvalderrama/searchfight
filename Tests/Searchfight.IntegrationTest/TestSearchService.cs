@@ -16,8 +16,8 @@ namespace Searchfight.IntegrationTest
         {
             var service = new SearchService();
             var result = service.LoadSearchResults(new string[] { "net", "java", "java script" });
-            Console.WriteLine(result.Report());
-            Assert.AreEqual(result.Results.Count(), 6);
+            Console.WriteLine(result.Result.Report());
+            Assert.AreEqual(result.Result.Results.Count(), 6);
         }
     }
 }

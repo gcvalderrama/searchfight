@@ -9,6 +9,6 @@ namespace Searchfight.Services
 {
     public abstract class SearchProxy
     {
-        public abstract Task<HttpResponseMessage> DoSearch(string term);
+        public abstract Task<HttpResponseMessage> DoSearch(string term); 
     }
 }
