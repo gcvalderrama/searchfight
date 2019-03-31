@@ -2,7 +2,7 @@
 
 ## You can compare many words againts google and bing search engines
 ```
-./Version1/searchfight.exe java "java script".net   
+./Version1/searchfight.exe java "java script" .net   
 java: bing: 23400000 google: 873000000  
 java script: bing: 42000000 google: 4310000000  
 net: bing: 125000000 google: 19900000000  
