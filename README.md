@@ -28,7 +28,7 @@ Visual Studio 2017
 * Nuget restore 
 * Execute build.ps1 
 * To review Unit Test Coverage use coverage.ps1
- [Unit Test Coverage](http://htmlpreview.github.com/?https://github.com/gcvalderrama/searchfight/blob/master/Tests/UniTestCoverage/ReportUnitCover/index.htm)
+* Sample here [Unit Test Coverage](http://htmlpreview.github.com/?https://github.com/gcvalderrama/searchfight/blob/master/Tests/UniTestCoverage/ReportUnitCover/index.htm)
  
 
 
